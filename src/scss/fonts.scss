@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+$font: 'Lato', sans-serif;
+
+h1, h2, h3, h4, h5, h6, p, li {
+    font-family: $font;
+    font-weight: lighter;
+}
+
+h1 {
+    color: $font-color;
+}
