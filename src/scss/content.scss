@@ -1,0 +1,28 @@
+// lists
+ul {
+    li {
+        margin-bottom: 6px;
+        font-size: $default-list-size;
+    }
+}
+
+
+// tables
+table {
+    font-family: $font;
+    font-size: $default-font-size - 4;
+    color: $font-color;
+    font-weight: lighter;
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    tr{
+        background: $info-color;
+        &:nth-child(even){
+            background: white;
+        }
+        td {
+            padding: 18px;
+        }
+    }
+}

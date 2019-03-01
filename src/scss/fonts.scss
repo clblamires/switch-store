@@ -6,6 +6,29 @@ h1, h2, h3, h4, h5, h6, p, li {
     font-weight: lighter;
 }
 
-h1 {
-    color: $font-color;
-}
+// headings
+@for $i from 1 through 6 {
+    h#{$i} {
+       font-size: ($default-heading-size+$heading-size-decrease) - $i * $heading-size-decrease;
+       color: $font-color;
+       @if $i == 4 {
+           text-transform: uppercase;
+           color: $font-color-light;
+       }
+    }
+ }
+
+ // individual headings
+ h1 {
+    margin: 46px 0;
+ }
+
+
+ p {
+     color: $font-color-light;
+     font-size: $default-font-size;
+ }
+
+ ul {
+     color: $font-color-light;
+ }

@@ -6,37 +6,108 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sample Layout - Regular</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
 
     <header class="container">
-        <div class="row">
+        <div class="row center">
             <div class="col">
-                <h1>Welcome to the world of Nintendo!</h1>
+                <h1>This is the main heading</h1>
             </div>
         </div>
     </header>
     <main class="container">
-        <div class="row">
+        <section class="row">
             <div class="col">
                 <h1>Online Play</h1>
                 <p>
                     Dive into cooperative and competitive games with online play for Nintendo Switch!
                 </p>
                 <h2>This is a smaller heading</h2>
-                <h3>Attention</h3>
-                <p>
-                    Your console's save data will be stored in the cloud. This helps ensure your data will not be lost. 
-                </p>
+                <h3>Heading Level 3</h3>
+
+                <div>
+                    <h3>Search by Keyword</h3>
+                    <div class="form-control">
+                        <i class="fa fa-search"></i>
+                        <input type="text" placeholder="Enter keyword" class="search">
+                    </div>
+                </div>
+
+                <div>
+                    <p>
+                        <span class="badge">50% off</span>
+                        <span class="badge">This is a badge!</span>
+                    </p>
+
+                    <button class="button">Sample Button</button>
+                    <button class="button button-small">Small Button</button>
+                    <button class="button button-full">Full length button</button>
+                    <input type="button" class="button" value="Input Button">
+                    <a href="#" class="button">Link Button</a>
+                </div>
+
+                <h4>Heading Level 4 (attention!)</h4>
                 <ul>
                     <li>Please note that not all software supporst save-data backup via the save data cloud service</li>
                     <li>Once you start a membership, etc. etc.</li>
                 </ul>
 
-            </div>
+                <div class="row">
+                    <div class="col">
+                        <section class="card">
+                            <img src="images/background.jpg" alt="" class="card-image">
+                            <div class="card-header">
+                                <h1>Regular card with image</h1>
+                            </div>
+                            <div class="card-content">
+                                <p>Regular cards are nice and easy to use</p>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col">
+                        <section class="card padding">
+                            <div class="card-header">
+                                <h1>Card with padding</h1>
+                            </div>
+                            <div class="card-content">
+                                <p>No image on this one</p>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+
+                <h3>Software Details</h3>
+                <table>
+                    <tr>
+                        <td>Supported Languages</td>
+                        <td>English, Spanish, French, German, Italian, Dutch, Portuguese, Russian, Korean, Chinese</td>
+                    </tr>
+                    <tr>
+                        <td>Required Space</td>
+                        <td>7.3GB</td>
+                    </tr>
+                    <tr>
+                        <td>Number of Players</td>
+                        <td>1-6</td>
+                    </tr>
+                    <tr>
+                        <td>Number of Players (Online)</td>
+                        <td>1-64</td>
+                    </tr>
+                    <tr>
+                        <td>Save Data Cloud Backup</td>
+                        <td>Supported</td>
+                    </tr>
+                </table>
+
+            </div.card-content>
         </div>
     </main>
+
+
     
 </body>
 </html>

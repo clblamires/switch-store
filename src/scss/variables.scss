@@ -1,11 +1,20 @@
 // Colors
 $primary-color: rgba(247, 123, 24, 1);
-$header-color: #E60012;
+$secondary-color: #E60012;
+$info-color: #e7e7e7;
 
-// Font Colors
+// Font
 $font-color: #000;
 $font-color-light: #777;
 $font-color-header: white;
 
+$default-font-size: 24px;
+$default-list-size: 20px;
+$default-heading-size: 30px;
+$heading-size-decrease: 4px;
+
 // Page Layout
-$max-page-width: 1000px;
+$max-page-width: 1090px;
+
+// components
+$card-padding: 40px;
